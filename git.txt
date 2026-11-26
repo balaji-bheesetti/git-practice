@@ -1,0 +1,16 @@
+discarding changes:
+-- git restore --staged <filename> (for staged do this forst then do then next command)
+-- git restore <filename>
+
+clean untracked files:
+-- git clean -n (to list untacked files)
+-- git clean -f (to remove untracked files)
+
+git stash: is used to temporarily save uncommitted changes without creating new commit.
+-- git stash (then move to another branch and come back again. then)
+-- git stash -u (stash even new files also)
+-- git stash pop
+-- git stash list
+-- git stash pop stash@{index}
+-- git stash apply stash@{index} -> used to apply stash and save the stash which can be used for another branch.
+-- git stash drop satsh@{index} -> to remove a stash

@@ -6,3 +6,4 @@ if __name__ == "__main__":
     print("div is " + div(5, 2))
     print("mul is " + mul(2, 3))
     print("pow is " + pow(3, 4))
+    print("stach this")
