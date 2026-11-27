@@ -14,3 +14,9 @@ git stash: is used to temporarily save uncommitted changes without creating new 
 -- git stash pop stash@{index}
 -- git stash apply stash@{index} -> used to apply stash and save the stash which can be used for another branch.
 -- git stash drop satsh@{index} -> to remove a stash
+
+Amending means modifying the most recent commit insted of creating new commit
+-- git commit --amend -m "message"
+-- git commit --amend --no-edit (to add new changes or files without creating new commit)
+
+Revert is used to undo changes made by previous commit without deleting that commit from history.
