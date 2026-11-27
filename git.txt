@@ -21,3 +21,17 @@ Amending means modifying the most recent commit insted of creating new commit
 
 Revert is used to undo changes made by previous commit without deleting that commit from history.
 -- git revert <hashcode> 
+
+Reset is used to move local branch backwards
+-- git reset --soft <hashcode> (reset commit but keep file changes in staging area)
+-- git reset --mixed <hashcode> (reset commit but keep file changes but not in staging area)
+-- git reset --hard <hashcode> (reset commit and files changes too)
+
+Reflog is like history of git movements in local.
+-- git reflog
+
+diff is used to compare changes between files, commits, branches, staging area.
+-- git diff
+-- git diff --staged
+-- git diff --staged <filename>
+-- git diff <another branch>
